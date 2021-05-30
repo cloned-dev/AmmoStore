@@ -81,12 +81,6 @@ function notify(string)
     DrawNotification(true, false)
 end
 
--- Notify Function [DO NOT TOUCH]! --
-function notify(string)
-    SetNotificationTextEntry("STRING")
-    AddTextComponentString(string)
-    DrawNotification(true, false)
-end
 
 
 
